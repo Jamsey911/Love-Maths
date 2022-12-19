@@ -1,3 +1,4 @@
+
 /* --------- Global style */
 
 body {
@@ -110,7 +111,8 @@ body {
     margin: 0 30px;
     transition: all 0.5s;
 }
-.btn--big::after {
+
+.btn--big::after{
     content: attr(data-type);
     font-size: 1rem;
     color: #445361;
@@ -249,3 +251,4 @@ body {
     }
 
 }
+
